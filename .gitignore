@@ -1,6 +1,7 @@
 /bitrix/*
 /upload/*
 /webdev/node_modules/*
+/local/lg/*
 .idea*
 .idea/*
 *.zip

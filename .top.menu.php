@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Женщины",
+		"/catalog/woman/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Дети",
+		"/catalog/kids/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Мужчины",
+		"/catalog/man/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Бренды", 
+		"/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Распродажа", 
+		"/sale/", 
+		Array(), 
+		Array("sale"=>"icon_el__red.png"), 
+		"" 
+	),
+	Array(
+		"Гид по стилю", 
+		"/guide-to-the-steele/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
