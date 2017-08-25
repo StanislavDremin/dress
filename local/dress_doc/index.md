@@ -1,11 +1,4 @@
 **Список разделов**
 
 * [Структура файлов](folders.md)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
-* [Структура файлов](http://example.com/)
+* [Про аякс-запросы и обработчики](ajax_handlers.md)
