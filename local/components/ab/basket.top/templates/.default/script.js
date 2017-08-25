@@ -1,0 +1,7 @@
+!function(t){function e(u){if(n[u])return n[u].exports;var o=n[u]={i:u,l:!1,exports:{}};return t[u].call(o.exports,o,o.exports,e),o.l=!0,o.exports}var n={};e.m=t,e.c=n,e.i=function(t){return t},e.d=function(t,n,u){e.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:u})},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="/home/bitrix/ext_www/dresscode.io/",e(e.s="tbFL")}({t0gP:/*!**************************************!*\
+  !*** ./custom_module/js/EventBus.js ***!
+  \**************************************/
+function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var u=new Vue,o={Vue:u,getBus:function(){return o.Vue},getEventList:function(){return o.Vue._events},$on:function(t,e){o.Vue.$on(t,e)},$emit:function(t,e){o.Vue.$on(t,e)}};void 0===window.EventBus&&(window.EventBus=o),e.default=window.EventBus},tbFL:/*!****************************************************!*\
+  !*** ../local/components/ab/basket.top/app/app.js ***!
+  \****************************************************/
+function(t,e,n){"use strict";var u=n(/*! EventBus */"t0gP"),o=function(t){return t&&t.__esModule?t:{default:t}}(u);$(function(){new Vue({el:"#basket_top_app",data:{count:0},mounted:function(){var t=this;o.default.getBus().$on("onDressAddBasket",function(e){t.count=e.quantity})}})})}});

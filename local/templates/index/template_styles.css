@@ -1,0 +1,216 @@
+.top-line__city span {
+	margin-right: 15px
+}
+
+.search-city-wr__phone span {
+	margin-right: 27px;
+}
+
+.lazy_item {
+	display: none;
+}
+.search a {
+	position: inherit;
+	background: transparent;
+}
+.search a.icon_search_link {
+	left: 3px;
+	top: 5px;
+	position: absolute;
+	background: #fff;
+}
+.hide_content {
+	display: none;
+}
+.auth_form_data input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+	border: none;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.auth_form_data .el-form-item {
+	margin-bottom: 0;
+}
+.form_site_enter {
+	height: auto !important;
+	padding-bottom: 25px !important;
+}
+.popUp-entrance__form__desc .el-checkbox {
+	align-items: center;
+}
+.form_site_enter .el-form-item__content {
+	line-height: 26px;
+}
+.error_auth_message {
+	color: red;
+	font-size: 12px;
+}
+.auth_form_data .error_field_wrap {
+	background: #ff5356;
+	color: #fff;
+	padding: 3px 7px;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	top: -25px;
+	font-size: 12px;
+}
+.auth_form_data .error_field_wrap .fa-caret-down {
+	position: absolute;
+	color: #ff5356;
+	bottom: -12px;
+	left: 3%;
+	font-size: 20px;
+}
+.row.box-list-sl-md-wr {
+	justify-content: space-between;
+}
+
+.box-list__sl {
+	margin-right: 0;
+}
+.big-box-girl__items {
+	width: 600px;
+}
+.small-box-girl__items-img {
+	width: 390px;
+}
+
+.banner-girl__txt {
+	width: 330px;
+	line-height: 60px;
+}
+
+.catalog-list .catalog-list__items .catalog-list__items__img {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.catalog-list-next {
+	display: block;
+	width: 100%;
+}
+.bx-pag-prev:before, .bx-pag-next:after {
+	content: "\f104";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+}
+.bx-pag-prev {
+	font-size: 12px;
+	padding: 0;
+	border: 0;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span {
+	margin: 0; 	padding: 0 7px;
+	background: transparent !important;
+	border: none !important;
+	color: #000;
+}
+.bx-pagination .bx-pagination-container ul {
+	display: flex;
+	justify-content: flex-start;
+}
+.bx-pagination .bx-pagination-container ul li {
+	display: flex;
+	align-items: baseline;
+	font-size: 12px;
+	font-family: 'Roboto Light',sans-serif;
+	justify-content: space-around;
+}
+.bx-pag-prev span, .bx-pag-next span {
+	font-size: 12px !important;
+	display: inline-block;
+}
+.bx-pag-next a {
+	padding-left: 7px !important;
+}
+.bx-pag-next span{
+	padding-right: 7px !important;
+}
+.bx-pag-next:after {
+	content: "\f105";
+}
+.bx-pagination .bx-pagination-container ul li span {
+	font-size: 13px;
+	padding: 0 8px;
+	border: 1px solid #d7d7d7;
+	border-radius: 3px;
+	margin-right: 0;
+	background: none;
+}
+.bx-pagination .bx-pagination-container ul li a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-active span {
+	background-color: #ec7574;
+	color: #fff;
+	transition: all .5s;
+}
+
+.el-prises__prises {
+	align-items: baseline;
+}
+.popOverSizes {
+	width: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	font-family: 'Roboto Light',sans-serif;
+	font-size: 12px;
+	color: #adafae;
+	line-height: 1.8;
+}
+.popOverSizes b {
+	color: #000;
+}
+
+.sidebar-element__el-sizes-desc .sizes-list .size {
+	margin-right: 10px;
+}
+.el-tag-pink {
+	background-color: #ec7574;
+	font-family: 'Roboto Light',sans-serif;
+	font-size: 10px;
+}
+.news-shops {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: center;
+}
+
+.sidebar-element__el-descs, .sidebar-element__el-attributes {
+	font-family: 'Roboto Light',sans-serif;
+	font-size: 14px;
+	color: #6e6e6e;
+	line-height: 1.8;
+}
+.sidebar-element__el-colors .color, .sidebar-element__el-sizes-desc .size {
+	cursor: pointer;
+}
+.sidebar-element__el-colors .color {
+	border-radius: 50%;
+	overflow: hidden;
+}
+.sidebar-element__el-colors .color:hover, .sidebar-element__el-sizes-desc .size:hover {
+	box-shadow:inset 0 0 1px 1px #ec7574;
+}
+
+.basket-item .icon-dell {
+	top: -5px;
+}
+
+.popup_product_wrap {
+	min-width: 768px;
+}
+
+.popupSliderSmall .item {
+	height: 110px !important;
+}
