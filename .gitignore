@@ -1,0 +1,11 @@
+/bitrix/*
+/upload/*
+/webdev/node_modules/*
+.idea*
+.idea/*
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.bmp
+.DS_*
